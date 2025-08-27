@@ -1,0 +1,61 @@
+:root{
+    
+
+}
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.cabecalho{
+    background-color: #000;
+    padding: 20px;
+}
+.cabecalho-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-menu{
+    list-style: none;
+    display: flex;
+}
+.cabecalho-menu li{
+    margin-left: 20px;
+}
+.cabecalho-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../assets/Game6.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+/* pseudo elemento */
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    
+}

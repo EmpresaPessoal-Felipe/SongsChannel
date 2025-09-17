@@ -30,7 +30,7 @@ const elementoDescricao = document.querySelector(".banner-descricao");
 // FUNÇÃO PARA O SLIDESHOW
 
 function slideShow(){
-    // ALTERA A IMAEM DE FUNDO DO BANNER
+    // ALTERA A IMAGEM DE FUNDO DO BANNER
     // ``- template strings ou string literais forma de concatenar
     elementoBanner.style.backgroundImage = `url(${bannerItems[i].imagem})`;
     // ALTERA O TITULO DO BANNER

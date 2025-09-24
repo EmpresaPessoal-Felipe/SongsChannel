@@ -1,18 +1,18 @@
 //ARRAY DE OBJETOS COM AS IMAGENS E INFORMAÇÕES DO BANNER
 const bannerItems =[
 {
-    imagem:"./src/assets/Game1.jpg",
+    imagem:"./src/assets/img/Game1.jpg",
     titulo: "TItulo do filme 1",
     descricao: "Filme 1"
 },
 {
-    imagem:"./src/assets/Game2.jpg",
+    imagem:"./src/assets/img/Game2.jpg",
     titulo: "TItulo do filme 2",
     descricao: "Filme 2"
 },
 
 {
-    imagem:"./src/assets/Game3.jpg",
+    imagem:"./src/assets/img/Game3.jpg",
     titulo: "TItulo do filme 3",
     descricao: "Filme 3"
 }

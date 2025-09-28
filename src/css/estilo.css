@@ -110,8 +110,16 @@ body {
     transform: scale(110%);
 }
 
-.sessao-filmes {
+.sessao-filme {
     padding: 20px;
+}
+
+.sessao-titulo{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 .filmes-titulo {

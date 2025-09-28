@@ -2,19 +2,19 @@
 const bannerItems =[
 {
     imagem:"./src/assets/img/poesia17.jpg",
-    titulo: "Escute agora: Poesia acústica 17",
+    titulo: "Em Alta: Poesia acústica 17",
     descricao: "Pineaplpe StormTV"
 },
 {
-    imagem:"./src/assets/img/Game2.jpg",
-    titulo: "Música 2",
-    descricao: "Cantor"
+    imagem:"./src/assets/img/molho.jpg",
+    titulo: "Em Alta: Álbum Molho(Ao Vivo)",
+    descricao: "Grupo menos é mais"
 },
 
 {
-    imagem:"./src/assets/img/Game3.jpg",
-    titulo: "Música 3",
-    descricao: "cantor"
+    imagem:"./src/assets/img/barcelona.jpg",
+    titulo: "Em Alta: Barcelona",
+    descricao: "Pk, L7NNON"
 }
 
 ];

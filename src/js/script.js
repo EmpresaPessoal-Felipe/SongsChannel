@@ -2,19 +2,19 @@
 const bannerItems =[
 {
     imagem:"./src/assets/img/Game1.jpg",
-    titulo: "TItulo do filme 1",
-    descricao: "Filme 1"
+    titulo: "Música 1",
+    descricao: "Cantor"
 },
 {
     imagem:"./src/assets/img/Game2.jpg",
-    titulo: "TItulo do filme 2",
-    descricao: "Filme 2"
+    titulo: "Música 2",
+    descricao: "Cantor"
 },
 
 {
     imagem:"./src/assets/img/Game3.jpg",
-    titulo: "TItulo do filme 3",
-    descricao: "Filme 3"
+    titulo: "Música 3",
+    descricao: "cantor"
 }
 
 ];

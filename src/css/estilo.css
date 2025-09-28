@@ -31,10 +31,12 @@ body {
 .cabecalho-menu {
     list-style: none;
     display: flex;
+    font-weight: bold;
 }
 
 .cabecalho-menu li {
     margin-left: 20px;
+
 }
 
 .cabecalho-menu a {
@@ -42,6 +44,9 @@ body {
     text-decoration: none;
 }
 
+.cabecalho-menu li:hover{
+    transform: scale(1.05);
+}
 .banner {
     background-image: url(../assets/Game6.jpg);
     background-size: cover;
@@ -130,6 +135,7 @@ body {
 .carrossel {
     position: relative;
     overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
 .carrossel img {
@@ -148,28 +154,39 @@ body {
 }
 
 .carrossel-item {
-    min-width: 200px;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
 }
 
-.btn-carrossel {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
-    padding: 10px;
+.carrossel-item:hover{
+    transform: scale(1.05);
+}
+.btn-carrossel{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(36, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 45%;
+}
+.btn-carrossel:hover{
+    transform: scale(1.05);
 }
 
-.btn-anterior {
-    left: 0;
+.btn-anterior { left: 10px;}
 
-}
-
-.btn-proximo {
-    right: 0;
-}
+.btn-proximo {right: 10px;}
 
 footer {
     background: black;

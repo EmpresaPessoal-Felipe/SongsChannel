@@ -20,12 +20,14 @@ body {
 .cabecalho {
     background-color: #000000;
     padding: 20px;
+    max-height: 70px;
 }
 
 .cabecalho-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 100px;
 }
 
 .cabecalho-menu {

@@ -1,9 +1,9 @@
 //ARRAY DE OBJETOS COM AS IMAGENS E INFORMAÇÕES DO BANNER
 const bannerItems =[
 {
-    imagem:"./src/assets/img/Game1.jpg",
-    titulo: "Música 1",
-    descricao: "Cantor"
+    imagem:"./src/assets/img/poesia17.jpg",
+    titulo: "Escute agora: Poesia acústica 17",
+    descricao: "Pineaplpe StormTV"
 },
 {
     imagem:"./src/assets/img/Game2.jpg",

@@ -3,7 +3,7 @@ const bannerItems =[
 {
     imagem:"./src/assets/img/poesia17.jpg",
     titulo: "Em Alta: Poesia acústica 17",
-    descricao: "Pineaplpe StormTV"
+    descricao: "Pineapple StormTV"
 },
 {
     imagem:"./src/assets/img/molho.jpg",

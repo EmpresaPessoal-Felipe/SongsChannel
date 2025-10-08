@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #000;
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
@@ -19,7 +19,7 @@ body {
 
 .cabecalho {
     padding: 3px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
 }
 
 .cabecalho-nav {
@@ -126,6 +126,8 @@ body {
     font-style: oblique;
     font-weight: bolder;
     color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 30px;
    
 }
 

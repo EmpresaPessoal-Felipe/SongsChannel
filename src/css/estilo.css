@@ -157,9 +157,20 @@ body {
 .carrossel-lista {
     display: flex;
     transition: transform 0.5s ease-in-out;
-
+}
+.carrossel-lista-emalta {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
+.carrossel-lista a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}   
 .carrossel-item {
     display: flex;
     align-items: center;
@@ -172,8 +183,20 @@ body {
 .carrossel-item:hover{
     transform: scale(1.05);
 }
+.carrossel-emalta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.carrossel-emalta:hover{
+    transform: scale(1.05);
+}
 .btn-carrossel{
-    width: 50px;
+    display: none;
+    /* width: 50px;
     height: 50px;
     border-radius: 50%;
     background: rgb(36, 28, 28);
@@ -185,15 +208,21 @@ body {
     color: #fff;
     font-size: 24px;
     position: absolute;
-    top: 45%;
-}
+    top: 45%; */
+} 
 .btn-carrossel:hover{
     transform: scale(1.05);
 }
 
-.btn-anterior { left: 10px;}
+#btn-anterior { 
+    left: 10px;
+    z-index: 2;
+}
 
-.btn-proximo {right: 10px;}
+#btn-proximo {
+    right: 10px;
+    z-index: 2;
+} 
 
 footer {
     background: black;
@@ -280,7 +309,6 @@ footer {
     gap:100px;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .banner-playlist{
@@ -397,7 +425,6 @@ variável */
     height: 340px;
     border-radius: 4px;
     border: 10px solid #771111; /* Ajuste a cor da borda */
-    /* Ajuste a cor da borda */
     overflow: hidden;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
@@ -412,7 +439,119 @@ variável */
     color: white;
     text-decoration: none;
     text-align: center;
-     padding: 10px;
+    padding: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 1024px){
+
+.banner{
+    height: 85vh;
+}
+.carrossel-emalta{
+    width: 320px;
+    height: 180px;
+    margin-top: 30%;
+}
+.carrossel-emalta img{
+    width: 320px;
+    height: 180px;
+    display: flex;
+}
+.carrossel-lista-emalta{
+    display: grid ;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+.carrossel{
+    transition: transform 1s ease-in-out;
+    position: sticky; 
+}
+.carrossel-lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+.carrossel-item{
+    margin-top: 50%;
+    width: 160px;
+    height: 160px;
+}
+.carrossel-item img{
+    height: 160px;
+    width: 160px;
+    display: flex;
+}
+#titulo{
+    width: 100%;
+    font-size: 1.4rem;
+}
+#texto-historia h1{
+    margin: 30px;
+    font-size: 2.5rem;
+}
+.playlists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo-Escute{
+    margin-left: -100px;
+    font-size: 40px;
+}
+.texto-personagem h1{
+    font-size: 40px;
+}
+.texto-personagem h3{
+    font-size: 25px;
+    margin-right: 25%;
+}
+.texto-personagem2 h1{
+    font-size: 40px;
+}
+.texto-personagem2 h3{
+    font-size: 25px;
+    margin-right: 25%;
+}
+.imagem-personagem1{
+    width: 200px;
+    height: 200px;
+}
+.imagem-personagem1 img{
+    width: 200px;
+    height: 200px;
+}
+} 
+@media (max-width: 512px){
+
+#titulo-Escute{
+    margin-left: -140px;
+    font-size: 35px;
+}
+.texto-personagem h1{
+    font-size: 35px;
+}
+.texto-personagem h3{
+    font-size: 20px;
+    margin-right: 25%;
+}
+.texto-personagem2 h1{
+    font-size: 35px;
+}
+.texto-personagem2 h3{
+    font-size: 20px;
+    margin-right: 25%;
+}
+.imagem-personagem1{
+    width: 150px;
+    height: 150px;
+}
+.imagem-personagem1 img{
+    width: 150px;
+    height: 150px;
+} 
 }

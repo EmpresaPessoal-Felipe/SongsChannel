@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 130px;
+    width: 80px;
+    height: 100px;
 }
 
 .cabecalho {
@@ -94,4 +94,15 @@ body {
 
 .banner-playlist:hover{
     transform: scale(1.05);
+}
+@media(max-width: 1024px) {
+    
+.playlists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }

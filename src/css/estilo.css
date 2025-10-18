@@ -1,5 +1,4 @@
-:root {}
-
+    
 * {
     margin: 0px;
     padding: 0px;
@@ -178,6 +177,7 @@ body {
     width: 400px;
     height: 400px;
     margin: 20px;
+    margin-top: 50px;
 }
 
 .carrossel-item:hover{

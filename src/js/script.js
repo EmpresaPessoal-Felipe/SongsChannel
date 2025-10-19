@@ -21,7 +21,7 @@ const bannerItems =[
 
 //DECLARANDO AS VARIAVEIS E ELEMENTOS COM DOM(DOCUMENT OBJECT MODEL)
 let i= 0;// inicio da contagem das imagens
-const tempo = 5000; // tempo em milissegundos
+const tempo = 3500; // tempo em milissegundos
 const elementoBanner = document.querySelector(".banner");
 const elementoTitulo = document.querySelector(".banner-titulo");
 const elementoDescricao = document.querySelector(".banner-descricao");

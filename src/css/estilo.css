@@ -19,7 +19,7 @@ body {
 
 .cabecalho {
     padding: 3px;
-    background-color: transparent;
+    background-color: rgb(24, 22, 22);
 }
 
 .cabecalho-nav {
@@ -45,8 +45,11 @@ body {
     text-decoration: none;
 }
 
-.cabecalho-menu li:hover{
+.cabecalho-menu li a:hover{
     transform: scale(1.05);
+    color:red;
+    font-size: 20px;
+    font-weight: 700;
 }
 .banner {
     object-fit: cover;
@@ -166,11 +169,11 @@ body {
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
+    
     font-weight: bold;
     text-align: center;
 }   
-.carrossel-item {
+ .carrossel-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,8 +183,22 @@ body {
     margin-top: 50px;
 }
 
+
 .carrossel-item:hover{
     transform: scale(1.05);
+}
+.carrossel-item a{
+    border-radius: 20px;
+}
+.carrossel-item a:hover{
+    box-shadow: 20px 20px 20px rgb(82, 6, 6);
+}
+
+.titulo-artista{
+    padding: 30px;
+    height: 10hv;
+    background-color: #161414;
+    border-radius: 0 0 20px 20px;
 }
 .carrossel-emalta {
     display: flex;
@@ -258,6 +275,7 @@ footer {
 
 .perfil-card:hover{
     transform: scale(1.05);
+    
 }
 
 .perfil-card h3 {
@@ -442,6 +460,24 @@ variável */
     padding: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+.footer{
+    background: rgb(46, 44, 44);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 20px 20px 0 0;
+}
+.contato{
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contato:hover{
+    color: red;
+    transform: translateY(1.05);
 }
 
 @media (max-width: 1024px){
